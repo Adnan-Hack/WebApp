@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: 'Playfair Display', serif;
+  background: white;
+}
+
+body {
+  @apply text-gray-900 dark:text-gold-neon bg-white dark:bg-black;
+  font-family: 'Playfair Display', serif;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #eee;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffd700;
+}
+
+a {
+  @apply text-gold font-medium hover:underline;
+}
